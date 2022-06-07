@@ -23,9 +23,7 @@
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                    
-               
+                </li>   
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" id="searchTxt"  type="search" placeholder="Search" aria-label="Search">
@@ -39,8 +37,15 @@
         <h1>Welcome To Magic Notes</h1>
 
         <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Add a note</h5>
+            <h5 class="card-title my-3" id = "noteTitle">Add Title</h5>
+            
+            <div class="input-group mb-3">
+                <input type="text" 
+                id="addTitle"
+                class="form-control" placeholder="Enter Title" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+
+                <h5 class="card-title my-3" id = "noteTitle">Add a note</h5>
                 <div class="form-group">
                     <textarea class="form-control" id="addTxt" rows="3"></textarea>
                 </div>
